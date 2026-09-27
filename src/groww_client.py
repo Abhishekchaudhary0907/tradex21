@@ -1,6 +1,6 @@
 from growwapi import GrowwAPI
 
-from config import (
+from .config import (
     GROWW_API_KEY,
     GROWW_API_SECRET,
 )

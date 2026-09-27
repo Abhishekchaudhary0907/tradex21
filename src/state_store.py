@@ -85,3 +85,4 @@ class StateStore:
         return set(
             self.state["active_trades"].keys()
         )
+    

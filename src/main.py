@@ -2,12 +2,12 @@ import time
 import uuid
 import traceback
 
-from config import POLL_INTERVAL_SECONDS
+from .config import POLL_INTERVAL_SECONDS
 
-from groww_client import GrowwClient
-from position_monitor import PositionMonitor
-from sl_manager import StopLossManager
-from state_store import StateStore
+from .groww_client import GrowwClient
+from .position_monitor import PositionMonitor
+from .sl_manager import StopLossManager
+from .state_store import StateStore
 
 
 def extract_smart_order_id(response):
@@ -80,7 +80,7 @@ def main():
 
     print()
     print("======================================")
-    print("     NIFTY MANUAL ENTRY SL BOT")
+    print("    TRADINGX A SMART SERVER NIFTY MANUAL ENTRY SL BOT STARTED")
     print("======================================")
     print()
 
